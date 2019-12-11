@@ -31,7 +31,7 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 
-    // Lifecycle components
+    // lifecycle components
     def version = '1.1.1'
     implementation "android.arch.lifecycle:extensions:$version"
     annotationProcessor "android.arch.lifecycle:compiler:$version"
@@ -43,6 +43,4 @@ dependencies {
     implementation 'androidx.recyclerview:recyclerview:1.1.0'
     implementation 'com.google.android.material:material:1.2.0-alpha02'
     implementation 'de.hdodenhof:circleimageview:3.0.1'
-
-
 }
